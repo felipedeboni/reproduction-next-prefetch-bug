@@ -4,7 +4,9 @@ export default function Home() {
   return (
     <>
       <h1>Home</h1>
-      <Link href="/vercel/next.js">Repo details</Link>
+      <Link href="/vercel/next.js" prefetch={false}>
+        Repo details
+      </Link>
     </>
   );
 }
