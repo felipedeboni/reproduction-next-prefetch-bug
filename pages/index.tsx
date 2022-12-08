@@ -1,4 +1,10 @@
-/** Add your relevant code here for the issue to reproduce */
+import Link from "next/link";
+
 export default function Home() {
-  return null
+  return (
+    <>
+      <h1>Home</h1>
+      <Link href="/vercel/next.js">Repo details</Link>
+    </>
+  );
 }
